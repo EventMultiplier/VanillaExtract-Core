@@ -17,6 +17,7 @@ public class VanillaCore extends JavaPlugin {
     @Override
     public void onDisable(){
         //gc,flushing,saving,etc.
+
         getLogger().info("VanillaExtract (Core) v0.1-ALPHA disabled");
     }
 }
